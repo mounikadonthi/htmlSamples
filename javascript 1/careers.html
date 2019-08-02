@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<script src="script.js">
+</script>
+<div class="main-division">
+        <div class="head">
+        	<h1>TECHNOVERT</h1>
+        	<nav >
+			<ul >
+        		<li><a href="home.html">HOME</a></li>
+        		<li><a href="#">SERVICES</a></li>
+        		<li><a href="careers.html" class="active">CAREERS</a></li>
+				<li><a href="contactus.html">CONTACT</a></li>
+				
+        		<li><img class="image"src="blog-icon.png" alt="image not found"></img></li>
+        	</ul>
+			</nav>  
+       </div>
+        <div class="careers-container">
+		<div class="careers-information">
+		<h2>Careers at Technovert</h2>
+		<p> We are looking for smart people who love fiddling with code and pour their hearts into it.If you are one, we would like to talk to you.Please fill the form below and we will get back to you.</p>
+		</div>
+		<div class="careers-form">
+		<form>
+		<div class="details-form">
+<div class="form-element">
+<div class="labels">Name</div> <div><input type="text"  id="idname"></div><span id="idname1">* </span>
+</div>
+<div class="form-element">
+<div class="labels">Email</div> <div><input type="text"  id="idemail"></div><span id="idemail1">* </span>
+</div>
+<div class="form-element">
+<div class="labels">Desired Role</div> <div><input type="text"></div>
+</div>
+<div class="form-element">
+<div class="labels">Upload Resume</div> <div><input type="text"></div><input type="file" id="myFileInput" /><input type="button" onclick="document.getElementById('myFileInput').click()" value="Browse.." class="browse-button" />
+</div>
+<button class="submit" type="button" onclick="validateNameEmail();">Submit</button>
+</div>
+		</form>
+		</div>
+		</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>

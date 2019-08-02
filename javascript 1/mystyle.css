@@ -1,0 +1,237 @@
+body{
+margin:0px;
+}
+       div.head
+	 {
+font-family:Century Gothic;
+     }
+      
+h1
+     {
+background-color:#3399CC;
+color: white;
+font-size:54px;
+margin:0px;
+padding:20px;
+font-weight:100;
+font-family:Century Gothic;
+  }
+nav
+     {
+background-color:black;
+font-size:17px;
+padding:3px 34px 2px 20px ;
+font-weight:bold;
+font-family:Ebrima;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0;
+}
+
+ nav li {
+    display: inline;
+}
+ .paragraph
+      {
+	align=justify;
+        width: 76%;
+	padding-left:0px;
+	padding-right:360px;
+	font-family:Calibri;
+	    font-size: 17px;
+      } 	 
+	 
+a{
+    color: white;
+    text-decoration: none;
+    padding-right:29px;
+    font-size: 20px;
+	padding-bottom: 3px;
+    padding-top: 3px;
+	
+	border-left: 4px solid black;
+}
+.image{
+float:right;
+}
+div.content
+{
+	font-family:Ebrima;
+margin:30px 30px 30px 44px ;
+ font-size: 15;
+}
+div.news
+{
+border-style:solid;
+border-width: 1px;
+border-color: grey;
+width: 800px;
+    height: 193px;
+padding-left:10;
+   
+ 
+line-height: 1.9;    
+}
+.h3{
+	 font-size: 22;
+margin:0px;
+font-weight:600;
+    font-family: calibri;
+}
+.news-section
+{
+list-style-type:none;
+padding-left: 18px;
+    margin-top: 0px;
+	line-height: 2.0;
+	    font-family: calibri;
+    font-size: 16px;
+
+
+}
+div.info
+{
+max-width:80%;
+padding-top:30px;
+}
+.careers-container
+{
+	padding-left: 47px;
+    font-family: Century Gothic;
+}
+.careers-information h2
+{
+	 font-weight: normal;
+	  margin-bottom: 18px;
+
+}
+.careers-information p
+{
+	font-family: Calibri;
+	font-size:18px;
+	width: 56%;
+	 margin-top: 0px;
+
+}
+.form-element{
+line-height:45px;
+}
+.form-element div
+{
+	
+	display:inline-block;
+}
+input
+{
+	height: 25px;
+}
+.labels
+{
+	min-width:150px;
+}
+.details-form
+{
+	font-family: Roboto,sans-serif;
+    font-size: 12px;
+}
+.browse
+{
+	    margin-left: 17px;
+		padding-left: 8px;
+        padding-right: 10px;
+		height: 23px;
+        width: 77px;
+}
+.submit
+{
+	margin-left:155px;
+	margin-top: 17px;
+	padding-left: 10px;
+    padding-right: 10px;
+	height: 26px;
+    width: 113px;
+	text-align: left;
+}
+a:hover
+{
+	background-color:#FF9900;
+    border-color: white;
+}
+.active {
+    background-color: #FF9900 ;
+	border-left:5px solid #FFFFFF;
+	color:black;
+}
+.contact
+{
+	min-width:257px;
+}
+.contact-us-form
+{
+	    width: 1000px;
+    margin: auto;
+}
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+   display: table-cell;
+       }
+.radio-button 
+{
+	  display: table-cell;
+    vertical-align: middle;
+}
+textarea
+{ 
+	
+	columns:50;
+	    height: 76px;
+    width: 441px;
+	margin-top: 10px;
+	    margin-bottom: 7px;
+}
+.send-message-button
+{
+	margin-top:10px;
+	display:inline-block;
+}
+span
+{
+	color:red;
+	padding-left:5px;
+}
+.error-message-box
+{
+	font-size:21px;
+}
+.input-size
+{
+	width:184px;
+	.font-size:10px;
+}
+.dropdown-list-size
+{
+	width: 190px;
+    font-size: 12px;
+	    height: 21px;
+}
+#myFileInput {
+    display:none;
+}
+.browse-button
+{
+	margin-left:20px;
+	width: 88px;
+    text-align: left;
+}
+.send-message-button
+{
+	height: 27px;
+    width: 114px;
+}
+.clear-button
+{
+	height: 27px;
+}

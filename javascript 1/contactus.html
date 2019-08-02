@@ -1,0 +1,94 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="script.js">
+
+</script>
+</head>
+<body>
+
+<div class="main-division">
+ <div class="head">
+        	<h1>TECHNOVERT</h1>
+        	<nav >
+			<ul >
+        		<li><a href="home.html">HOME</a></li>
+        		<li><a href="#">SERVICES</a></li>
+        		<li><a href="careers.html">CAREERS</a></li>
+				<li><a href="contactus.html" class="active">CONTACT</a></li>
+				
+        		<li><img class="image"src="blog-icon.png" alt="image not found"></img></li>
+        	</ul>
+			</nav>  
+  </div>
+	   <div class="contact-us-form">
+				   <form id="name-form" name="person-form">
+							   <span id="error" class="error-message-box"></span>
+							   <div class="form-element"> 
+							   <div class="contact">My Name</div>
+							   <div><input type="text"  class="input-size"  id="idname"></div>
+							   <span id="idname1">* </span>
+						   </div>
+					<div class="form-element">
+							<div class="contact">My Email Address</div>
+							<div><input type="text" class="input-size" onkeyup="emailVerification()" id="idemail"></div>
+							<span id="idemail1">* </span>
+					</div>
+							<div class="form-element">
+							<div class="contact">My Telephone Number</div>
+							<div><input type="text" class="input-size"></div>
+					</div>
+					<div class="form-element">
+							<div class="contact">My Organization Name</div>
+							<div><input type="text" class="input-size"  id="idorganizationname"></div>
+							<span id="idorganizationname1">* </span>
+					</div>
+							<div class="form-element">
+							<div class="contact">My City</div>
+							<div><input type="text" class="input-size"></div>
+					</div>
+					<div class="form-element">
+							<div class="contact">My State or Province</div>
+							<div>
+								<select class="dropdown-list-size" id="dropdown-text" onchange="setPromotionCode()">
+								<option disabled="disabled" selected="selected">Select Select State or Province</option>
+								<option>Andhra</option>
+								<option>Telangana</option>
+								</select>
+							</div>
+					</div>
+					<div class="form-element">
+							<div class="contact">Gender</div> 
+							<div ><label ><input type="radio" name="gender" id = "gender" onchange = "greetingMessage();">Male</label>
+							   <label><input type="radio" name="gender" id = "gender1" onchange = "greetingMessage();">Female</label>
+							</div>
+					  </div>
+					<div class="form-element">
+					<div class="contact">Please Contact me by</div>
+						<div>
+							<label style=" display: table-cell;"><input type="radio" name="contactme">Email</label>
+						   <label ><input type="radio" name="contactme">Phone</label>
+						   <label style=" display: table-cell;"><input type="radio" name="contactme">Both</label>
+						</div>
+					</div>
+					   <div class="form-element">
+						   <div class="contact">Promotion Code</div>
+						   <div><input type="text" class="input-size" id="promotion"></div>
+					   </div>
+					  <div class="form-element">The information is optional but it helps us to serves you better</div>
+					  <div class="form-element">
+						  <div class="contact">My Website address is</div>
+						  <div><input type="text" id="url" class="input-size" onkeyup="urlValidation()"></div>
+						  <span id="url-message"></span>
+					  </div>
+					<div ><label>Tell us more about your organiztion</label><div ><textarea></textarea></div></div>
+					<div ><label>What i'd like to know is</label><div><textarea></textarea></div></div>
+						<div ><div><button class="send-message-button" type="button" onclick="validateForm();">Send Message</button>
+						<button class="clear-button" type="clear"  onclick="clear();">Clear Form</button></div>
+
+				   </form>
+				   </div>
+</div>
+</div>
+</body>
+</html>
